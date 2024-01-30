@@ -41,10 +41,9 @@ const LoseFocusDesc = (e)=>{
 const handleOnChangeDesc= (e) =>{
  // setPassword(e.target.value)
 
- let descErrorMsg = document.getElementById("descErrorMsg");
   if(e.target.value != ""){
 
-    descErrorMsg.style.visibility = 'hidden';
+    document.getElementById("descErrorMsg").style.visibility = 'hidden';
 
   }
 }
